@@ -1,0 +1,6 @@
+  __traceiter_android_vh_do_send_sig_info
+  __tracepoint_android_vh_do_send_sig_info
+  __traceiter_android_vh_binder_proc_transaction_finish
+  __tracepoint_android_vh_binder_proc_transaction_finish
+  __traceiter_android_vh_binder_trans
+  __tracepoint_android_vh_binder_trans

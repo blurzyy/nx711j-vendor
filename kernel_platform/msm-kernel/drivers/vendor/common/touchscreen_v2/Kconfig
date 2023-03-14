@@ -1,0 +1,38 @@
+
+source "drivers/vendor/common/touchscreen_v2/focaltech_touch_3681/Kconfig"
+source "drivers/vendor/common/touchscreen_v2/goodix_berlin_driver_v2/Kconfig"
+source "drivers/vendor/common/touchscreen_v2/goodix_berlin_driver_9916r/Kconfig"
+
+config TOUCHSCREEN_BOARD_NAME
+	string "config board firmware folder"
+
+config TOUCHSCREEN_DRM_PANEL_NOTIFIER
+	bool "add qcom drm panel support"
+	default n
+	help
+	  Say Y here to enable debug tools.
+
+	  If unsure, say N.
+
+config TOUCHSCREEN_UFP_MAC
+	bool "tp under fingerprint status machine"
+	default n
+	help
+	  Say Y here if you want to have a under fingerprint status machine
+	  If unsure, say N.
+
+config TOUCHSCREEN_POINT_REPORT_CHECK
+	bool "all point clean when tp irq timeout"
+	default n
+	help
+	  Say Y here to enable .
+	  If unsure, say N.
+config TOUCHSCREEN_POINT_SIMULAT_UF
+ 	bool "tp under fingerprint status machine"
+ 	default n
+ 	help
+ 	  Say Y here if you want to simulate finger down
+ 	  If unsure, say N.
+
+config TOUCHSCREEN_BOARD_NAME
+	string "config board firmware folder"
